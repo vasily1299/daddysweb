@@ -1,0 +1,246 @@
+/* Медиа запрос: для экранов шириной до 1140px */
+@media (max-width: 1140px) {
+  .menu {
+    width: 75%;
+  }
+  .header{
+    justify-content: start;
+    padding-top: 70px;
+  }
+  .header-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 5%;
+  }
+  .header-title{
+    margin-bottom: 10px;
+    font-size: 42px;
+  }
+  .card {
+    width: calc(50% - 15px);
+  }
+  /* .card-img{
+        max-width: 100%;
+    } */
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-contacts {
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    margin-bottom: 50px;
+  }
+  .footer-icons-row {
+    padding: 0;
+  }
+}
+
+/* Медиа запрос: для экранов шириной до 760px */
+@media (max-width: 760px) {
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: #1e4776b6;
+    transition: all 0.6s ease-in;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .menu_link {
+    font-size: 20px;
+    display: block;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 15px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 3px;
+    transition: all 0.6s ease-in;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .header-phone {
+    width: 80%;
+    height: 50px;
+  }
+  .header-icons {
+    width: 10%;
+    margin-right: 45px;
+  }
+  .header{
+    padding-top: 70px;
+    justify-content: start;
+  }
+  .header-title {
+    font-size: 32px;
+    width: 320px;
+    margin-bottom: 10px;
+    
+  }
+  .header-subtitle {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .header-arrow{
+    height: 78px;
+    bottom:5px;
+  }
+  .advantages__wrapper {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .advantages {
+    padding-bottom: 0;
+  }
+  .advantages__item {
+    margin-bottom: 40px;
+  }
+  .advantages__subtitle {
+    margin-top: 18px;
+  }
+  .advantages__descr {
+    margin-top: 14px;
+  }
+
+  .stages__wrapper {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .stages {
+    padding-bottom: 0;
+  }
+  .stages__item {
+    margin-bottom: 40px;
+  }
+  .stages__subtitle {
+    margin-top: 18px;
+  }
+  .stages__descr {
+    margin-top: 14px;
+  }
+
+  .dontshow {
+    display: none;
+  }
+  .services {
+    padding-top: 40px;
+  }
+  .services-header,
+  .advantages-header,
+  .stages-header,
+  .title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .title_left {
+    font-size: 24px;
+  }
+  .services-descr {
+    font-size: 18px;
+  }
+  .services-descr li {
+    line-height: 1.8;
+  }
+  .carousel {
+    padding-bottom: 40px;
+  }
+  .carousel__inner {
+    width: 300px;
+  }
+  .portfolio {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .portfolio-header {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .portfolio-cards-wrapper {
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+    max-width: 530px;
+  }
+  /* .card-img{
+        display: block;
+        width: 250px;
+    } */
+  .card:nth-last-child(2) {
+    margin-bottom: 30px;
+  }
+  .card-link {
+    padding: 15px;
+  }
+  .card-img {
+    margin-bottom: 10px;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .footer-copyright-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .footer-copyright p {
+    font-size: 14px;
+  }
+  .footer-icons p {
+    font-size: 14px;
+  }
+  .footer-contacts p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .modal{
+    width: 280px;
+  }
+}
+
